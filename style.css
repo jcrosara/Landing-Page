@@ -13,9 +13,11 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
-body {
+body,
+.unit1text {
     display: flex;
     flex-direction: column;
 }
@@ -32,22 +34,49 @@ ul {
     justify-content: space-between;
     gap: 8px;
     padding: 8px;
+    color: #e5e7eb;
 }
 
-.title2 {
+.nav,
+.footer {
+    padding: 0px 132px;
+    background-color: #1f2937;
+}
+
+.title2,
+.unit1,
+.unit4 {
     display: flex;
     justify-content: center;
 }
 
-.unit3 {
+.unit3,
+.unit1,
+.unit4 {
     display: flex;
     align-items: center;
+}
+
+.unit4sub {
+    display: flex;
+    align-items: flex-start;
+    color: #f9faf8;
+    padding-right: 100px ;
+}
+
+.unit3,
+.unit4sub {
+    flex-direction: column;
+}
+
+.unit1 {
+    background-color: #1f2937;
 }
 
 .container2 {
     display: flex;
     gap: 50px;
-    justify-content: center;
+    justify-content: space-around;
     padding: 2rem;
 
 }
@@ -60,4 +89,103 @@ max-width: 200px ;
 
 .logo {
     margin-right: auto;
+    color: #f9faf8;
+    font-size: 24px;
+
 }
+
+.unit1head {
+    font: 48px extra-bold;
+    color: #f9faf8;
+}
+
+.unit1img {
+    padding-right: 100px;
+}
+
+.unit1sub {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.unit1text {
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.unit1 {
+    padding: 2rem;
+}
+
+.unit4 {
+    background-color: #3882f6;
+    margin: 50px 100px;
+    padding: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+.button1 {
+    align-self: flex-start;
+    flex: 0 0 auto;
+    background-color: #3882f6;
+    text-align: center;
+    border-radius: 12px;
+    border: none;
+    padding: 8px 16px;
+    font-size: 12px;
+    color: #f9faf8;
+
+}
+
+.button2 {
+    flex: 0 0 auto;
+    background-color: #3882f6;
+    text-align: center;
+    border-radius: 12px;
+    padding: 8px 16px;
+    font-size: 12px;
+    color: #f9faf8;
+    border: solid 2px #f9faf8;
+}
+
+.hero {
+    width: 500px;
+    height: auto;
+}
+
+li:not(.logo) {
+    padding: 0px 8px;
+
+}
+
+.title2 {
+    font: 36px extra-bold;
+    color: #1f2937;
+}
+
+.unit3 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    justify-content: center;
+    padding: 50px 132px;
+}
+
+.unit3subtext {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2em 2em 0em 0em;
+
+}
+
+.title4sub {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
